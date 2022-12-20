@@ -1,5 +1,5 @@
 <template>
-  <main class="prose lg:prose-xl dark:prose-invert max-w-5xl m-auto p-8">
-    <ContentDoc />
+  <main class="prose lg:prose-lg dark:prose-invert max-w-5xl m-auto">
+    <ContentDoc class="pt-28" />
   </main>
 </template>

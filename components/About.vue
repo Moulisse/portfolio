@@ -1,0 +1,21 @@
+<template>
+  <div class="h-screen flex items-center justify-center flex-col relative">
+    <h1>Denis Lachartre</h1>
+    <div>Développeur VueJS, NodeJS</div>
+    <button>CV imprimable</button>
+    <button class="absolute bottom-8 flex flex-col items-center gap-4">
+      Mes projets
+      <svg
+        class="w-6 h-6 text-primary-500 animate-bounce"
+        fill="none"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        stroke-width="2"
+        viewBox="0 0 24 24"
+        stroke="currentColor"
+      >
+        <path d="M19 14l-7 7m0 0l-7-7m7 7V3"></path>
+      </svg>
+    </button>
+  </div>
+</template>
