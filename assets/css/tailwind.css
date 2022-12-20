@@ -20,3 +20,7 @@ html {
     padding-top: 0;
   }
 }
+
+main {
+  @apply max-w-5xl m-auto px-8 pb-16 lg:pb-56;
+}

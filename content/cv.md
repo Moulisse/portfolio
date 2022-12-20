@@ -4,6 +4,31 @@ _Développeur VueJS, NodeJS_
 
 ## Projets
 
+- 1
+- 1
+- 1
+- 1
+- 1
+- 1
+- 1
+- 1
+- 1
+- 1
+- 1
+- 1
+- 1
+- 1
+- 1
+- 1
+- 1
+- 1
+- 1
+- 1
+- 1
+- 1
+- 1
+- 1
+
 ## Formation
 
 - **2015 - 2019** : RICM à Polytech Grenoble, formation d'ingénieur en informatique.

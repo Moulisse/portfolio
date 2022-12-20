@@ -1,9 +1,17 @@
 <template>
   <div class="h-screen flex items-center justify-center flex-col relative">
-    <h1>Denis Lachartre</h1>
-    <div>Développeur VueJS, NodeJS</div>
-    <button>CV imprimable</button>
-    <button class="absolute bottom-8 flex flex-col items-center gap-4">
+    <h1 class="text-6xl mb-6 text-center">Denis Lachartre</h1>
+    <div class="text-xl italic opacity-50 mb-10">Développeur VueJS, NodeJS</div>
+    <div class="flex gap-4">
+      <Button>Contacts</Button>
+      <NuxtLink href="cv">
+        <Button fill="outline">CV imprimable</Button>
+      </NuxtLink>
+    </div>
+    <button
+      class="absolute bottom-8 flex flex-col items-center gap-4"
+      @click="scrollScreen"
+    >
       Mes projets
       <svg
         class="w-6 h-6 text-primary-500 animate-bounce"
@@ -19,3 +27,12 @@
     </button>
   </div>
 </template>
+
+<script setup lang="ts">
+function scrollScreen() {
+  document.documentElement.scrollTo({
+    top: window.innerHeight,
+    behavior: "smooth",
+  });
+}
+</script>
