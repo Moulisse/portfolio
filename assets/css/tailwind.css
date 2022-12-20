@@ -4,11 +4,19 @@
 
 html {
   color-scheme: dark;
+  overflow-y: scroll;
+}
+
+.safe-space {
+  padding-top: 7rem;
 }
 
 @media print {
   .no-print,
   .no-print * {
     display: none !important;
+  }
+  .safe-space {
+    padding-top: 0;
   }
 }
