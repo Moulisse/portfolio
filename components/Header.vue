@@ -1,11 +1,15 @@
 <template>
   <div
-    class="flex justify-center gap-8 text-xl border-b border-slate-50/10 links fixed top-0 w-full backdrop-blur z-10"
+    class="flex justify-center gap-8 text-xl border-b border-slate-50/10 fixed top-0 w-full backdrop-blur z-10"
   >
-    <NuxtLink href="/" active-class="!border-primary-500"> A propos </NuxtLink>
+    <NuxtLink href="/" active-class="!border-primary-500" class="link">
+      A propos
+    </NuxtLink>
 
     <HeadlessPopover v-if="projects" v-slot="{ open, close }">
-      <HeadlessPopoverButton class="focus:outline-none space-x-2">
+      <HeadlessPopoverButton
+        class="focus:outline-none space-x-2 px-2 py-5 border-b-4 border-transparent"
+      >
         <span> Projets </span>
         <Icon
           name="carbon:chevron-down"
@@ -23,12 +27,12 @@
         leave-to-class="translate-y-1 opacity-0"
       >
         <HeadlessPopoverPanel
-          class="absolute left-1/2 z-10 mt-6 w-screen max-w-sm -translate-x-1/2 transform px-4 sm:px-0 lg:max-w-3xl"
+          class="absolute left-1/2 z-10 w-screen max-w-sm -translate-x-1/2 transform p-4 sm:px-0 lg:max-w-3xl"
         >
           <div
             class="overflow-hidden rounded-lg shadow-lg ring-4 ring-primary-500"
           >
-            <div class="relative grid gap-4 bg-slate-900 p-7 lg:grid-cols-2">
+            <div class="relative grid gap-4 bg-slate-800 p-7 lg:grid-cols-2">
               <template v-for="item in projects">
                 <NuxtLink
                   v-if="item"
@@ -48,7 +52,7 @@
                     <Icon
                       :name="item.icon"
                       v-if="item.icon"
-                      class="stroke-current w-8 h-8 z-10"
+                      class="stroke-current stroke-0 w-8 h-8 z-10"
                     ></Icon>
                   </div>
                   <div>
@@ -67,7 +71,9 @@
       </transition>
     </HeadlessPopover>
 
-    <NuxtLink href="/cv" active-class="!border-primary-500"> CV </NuxtLink>
+    <NuxtLink href="/cv" active-class="!border-primary-500" class="link">
+      CV
+    </NuxtLink>
   </div>
 </template>
 
@@ -75,13 +81,21 @@
 const { data: projects } = await useAsyncData("projects", () =>
   queryContent("/projects")
     .sort({ id: 1 })
-    .only(["title", "description", "_path", "icon", "color"])
+    .only([
+      "title",
+      "description",
+      "_path",
+      "icon",
+      "color",
+      "preview",
+      "stack",
+    ])
     .find()
 );
 </script>
 
 <style scoped>
-.links > * {
+.link {
   @apply px-2 py-5 border-b-4 border-transparent;
 }
 </style>
