@@ -1,6 +1,5 @@
 <template>
   <div class="flex items-baseline gap-4 flex-wrap">
-    <span class="shrink-0">Stack :</span>
     <div
       v-for="lang in stack"
       class="inline-block rounded-full px-4 pb-1 pt-0.5 shrink-0"

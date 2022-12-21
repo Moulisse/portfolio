@@ -22,5 +22,5 @@ html {
 }
 
 main {
-  @apply max-w-5xl m-auto px-8 pb-16 lg:pb-56;
+  @apply !max-w-5xl m-auto px-8 pb-16 lg:pb-56;
 }

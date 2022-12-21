@@ -79,18 +79,7 @@
 
 <script setup lang="ts">
 const { data: projects } = await useAsyncData("projects", () =>
-  queryContent("/projects")
-    .sort({ id: 1 })
-    .only([
-      "title",
-      "description",
-      "_path",
-      "icon",
-      "color",
-      "preview",
-      "stack",
-    ])
-    .find()
+  queryContent("/projects").sort({ id: 1 }).find()
 );
 </script>
 

@@ -7,3 +7,16 @@ color: "#ef4444"
 preview: portfolio.png
 stack: [Nuxt, Vue, Tailwind, HeadlessUI]
 ---
+
+::AppImg{src="portfolio.png"}
+::
+
+---
+
+# Portfolio
+
+::Stack
+---
+stack: [Nuxt, Vue, Tailwind, HeadlessUI]
+---
+::

@@ -10,11 +10,7 @@
         transform="translate(100 100)"
       />
     </svg>
-    <div class="flex justify-center items-center h-full p-6">
-      <div class="w-full">
-        <slot />
-      </div>
-    </div>
+    <slot />
   </div>
 </template>
 

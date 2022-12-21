@@ -4,16 +4,7 @@
   >
     <template v-for="(project, i) in projects">
       <Blob :class="{ 'col-start-3': i % 2 !== 0 }">
-        <NuxtImg
-          v-if="project.preview"
-          :src="'/img/' + project.preview"
-          class="rounded-xl shadow-2xl"
-          loading="lazy"
-          width="1920px"
-          height="1920px"
-          format="webp"
-          fit="inside"
-        ></NuxtImg>
+        <AppImg :src="project.preview"></AppImg>
       </Blob>
       <NuxtLink
         :href="project._path"
@@ -41,17 +32,6 @@
 
 <script setup lang="ts">
 const { data: projects } = await useAsyncData("projects", () =>
-  queryContent("/projects")
-    .sort({ id: 1 })
-    .only([
-      "title",
-      "description",
-      "_path",
-      "icon",
-      "color",
-      "preview",
-      "stack",
-    ])
-    .find()
+  queryContent("/projects").sort({ id: 1 }).find()
 );
 </script>

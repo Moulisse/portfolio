@@ -7,4 +7,15 @@ color: "#22c55e"
 stack: [Vue, Tailwind, HeadlessUI]
 ---
 
+::AppImg{src="portfolio.png" height=1080}
+::
+
+---
+
 # Borne de prise de commandes
+
+::Stack
+---
+stack: [Vue, Tailwind, HeadlessUI]
+---
+::
