@@ -1,5 +1,5 @@
 <template>
   <main class="prose lg:prose-lg prose-invert">
-    <ContentDoc class="safe-space" />
+    <ContentDoc class="nuxt-content safe-space" />
   </main>
 </template>

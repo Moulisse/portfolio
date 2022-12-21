@@ -1,5 +1,5 @@
 <template>
-  <div class="h-full p-6">
+  <div class="flex h-full p-6">
     <NuxtImg
       v-if="src"
       :src="'/img/' + src"
@@ -17,8 +17,4 @@ defineProps<{
 }>();
 </script>
 
-<style scoped>
-img {
-  max-height: 50vh;
-}
-</style>
+<style scoped></style>

@@ -17,6 +17,6 @@ stack: [Angular, Ionic]
 
 ::Stack
 ---
-stack: [Nuxt, Vue, Tailwind, HeadlessUI]
+stack: [Angular, Ionic]
 ---
 ::

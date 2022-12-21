@@ -24,3 +24,7 @@ html {
 main {
   @apply !max-w-5xl m-auto px-8 pb-16 lg:pb-56;
 }
+
+.nuxt-content img {
+  max-height: 50vh !important;
+}
