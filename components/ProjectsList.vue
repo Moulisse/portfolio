@@ -4,12 +4,16 @@
   >
     <template v-for="(project, i) in projects">
       <Blob :class="{ 'col-start-3': i % 2 !== 0 }">
-        <img
-          :src="'/img/' + project.preview.path"
+        <NuxtImg
           v-if="project.preview"
-          class="rounded-xl"
+          :src="'/img/' + project.preview"
+          class="rounded-xl shadow-2xl"
           loading="lazy"
-        />
+          width="1920px"
+          height="1920px"
+          format="webp"
+          fit="inside"
+        ></NuxtImg>
       </Blob>
       <NuxtLink
         :href="project._path"

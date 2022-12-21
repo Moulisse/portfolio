@@ -1,5 +1,5 @@
 <template>
-  <div class="relative">
+  <div class="aspect-square">
     <svg
       viewBox="0 0 200 200"
       xmlns="http://www.w3.org/2000/svg"
@@ -10,10 +10,16 @@
         transform="translate(100 100)"
       />
     </svg>
-    <div class="absolute inset-6 flex justify-center items-center">
+    <div class="flex justify-center items-center h-full p-6">
       <div class="w-full">
         <slot />
       </div>
     </div>
   </div>
 </template>
+
+<style scoped>
+svg {
+  margin-bottom: -100%;
+}
+</style>
