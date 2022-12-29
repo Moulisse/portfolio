@@ -1,3 +1,6 @@
+Email : denis.lachartre@gmail.com\
+tel : 07 81 36 08 89
+
 # Denis Lachartre
 
 _Développeur VueJS, NodeJS_
