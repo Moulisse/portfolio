@@ -2,7 +2,11 @@
   <div
     class="flex justify-center gap-8 text-xl border-b border-slate-50/10 fixed top-0 w-full backdrop-blur z-10"
   >
-    <NuxtLink href="/" active-class="!border-primary-500" class="link">
+    <NuxtLink
+      href="/"
+      active-class="!border-primary-500"
+      class="link text-shadow"
+    >
       A propos
     </NuxtLink>
 
@@ -10,10 +14,10 @@
       <HeadlessPopoverButton
         class="focus:outline-none space-x-2 px-2 py-5 border-b-4 border-transparent"
       >
-        <span> Projets </span>
+        <span class="text-shadow"> Projets </span>
         <Icon
           name="carbon:chevron-down"
-          class="transition"
+          class="transition stroke-gray-500"
           :class="open ? 'rotate-180' : ''"
         ></Icon>
       </HeadlessPopoverButton>
@@ -71,7 +75,11 @@
       </transition>
     </HeadlessPopover>
 
-    <NuxtLink href="/cv" active-class="!border-primary-500" class="link">
+    <NuxtLink
+      href="/cv"
+      active-class="!border-primary-500"
+      class="link text-shadow"
+    >
       CV
     </NuxtLink>
   </div>
@@ -86,5 +94,9 @@ const { data: projects } = await useAsyncData("projects", () =>
 <style scoped>
 .link {
   @apply px-2 py-5 border-b-4 border-transparent;
+}
+
+.text-shadow {
+  text-shadow: 0 0 2px black;
 }
 </style>

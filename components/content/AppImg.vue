@@ -6,7 +6,7 @@
       loading="lazy"
       format="webp"
       fit="contain"
-      class="max-h-full max-w-full shadow-2xl rounded-xl m-auto"
+      class="max-h-full max-w-full shadow-2xl rounded-lg m-auto"
     ></NuxtImg>
   </div>
 </template>

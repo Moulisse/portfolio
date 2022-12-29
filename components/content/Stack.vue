@@ -2,10 +2,10 @@
   <div class="flex items-baseline gap-4 flex-wrap">
     <div
       v-for="lang in stack"
-      class="inline-block rounded-full px-4 pb-1 pt-0.5 shrink-0"
+      class="inline-block rounded-full px-4 pb-1 pt-0.5 shrink-0 flex items-center gap-2"
       :class="lang"
     >
-      <Icon v-if="icons[lang]" :name="icons[lang]" class="mr-1 text-xl"></Icon>
+      <Icon v-if="icons[lang]" :name="icons[lang]" class="text-xl"></Icon>
       {{ lang }}
     </div>
   </div>
@@ -22,6 +22,7 @@ const icons: { [key: string]: string } = {
   Angular: "tabler:brand-angular",
   "Angular Material": "tabler:brand-angular",
   Ionic: "ion:logo-ionic",
+  Electron: "ion:logo-electron",
 };
 </script>
 
@@ -35,11 +36,11 @@ const icons: { [key: string]: string } = {
   color: black;
 }
 .Tailwind {
-  background-color: #07adca;
+  background-color: #06adc9;
   color: black;
 }
 .HeadlessUI {
-  background-color: #67d3fe;
+  background: linear-gradient(160deg, #61d0f2, #7466d5);
   color: black;
 }
 .Angular {
@@ -49,5 +50,9 @@ const icons: { [key: string]: string } = {
 .Ionic {
   background-color: #4c8aef;
   color: black;
+}
+.Electron {
+  background-color: #292c37;
+  color: #9ae4f2;
 }
 </style>

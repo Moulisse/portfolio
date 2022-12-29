@@ -28,3 +28,10 @@ main {
 .nuxt-content img {
   max-height: 50vh !important;
 }
+
+.nuxt-content a {
+  text-decoration: none;
+}
+.nuxt-content a:hover {
+  text-decoration: underline;
+}
