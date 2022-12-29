@@ -9,7 +9,12 @@ export default defineNuxtConfig({
     "nuxt-icon",
     "@nuxt/image-edge",
   ],
-  content: {},
+  content: {
+    highlight: {
+      preload: ["javascript"],
+      theme: "dark-plus",
+    },
+  },
   tailwindcss: {
     config: {
       content: [],

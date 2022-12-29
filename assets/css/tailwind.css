@@ -19,6 +19,9 @@ html {
   .safe-space {
     padding-top: 0;
   }
+  main {
+    padding-bottom: 0 !important;
+  }
 }
 
 main {
