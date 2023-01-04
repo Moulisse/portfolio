@@ -9,6 +9,13 @@ export default defineNuxtConfig({
     "nuxt-icon",
     "@nuxt/image-edge",
   ],
+  app: {
+    head: {
+      title: "Denis Lachartre",
+      meta: [],
+      link: [{ rel: "icon", type: "image/x-icon", href: "/favicon.png" }],
+    },
+  },
   content: {
     highlight: {
       preload: ["javascript"],

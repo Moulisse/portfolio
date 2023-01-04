@@ -8,7 +8,7 @@ preview: borne.png
 stack: [Vue, Tailwind, HeadlessUI, Electron]
 ---
 
-::AppImg{src="borne.png" height=1080}
+::AppImg{src="borne.png"}
 ::
 
 ---
@@ -41,7 +41,7 @@ Electron est donc une bonne solution pour quelqu'un qui connait aussi NodeJS.
 Similaires aux autres apps de prises de commandes, on sélectionne des articles qu'on ajoute au panier, puis on passe au paiement.
 Certains articles sont plus compliqués que d'autres, il faut passer par plusieurs pages pour choisir ses ingrédients.
 
-::AppImg{src="borne/borne_menu.png" height=1080}
+::AppImg{src="borne/borne_menu.png"}
 ::
 
 ## Personnalisation
@@ -52,13 +52,13 @@ En revanche, il a fallu rendre personnalisables certains éléments statiques ai
 Afin de limiter le nombre de couleurs à saisir, certaines couleurs de texte sont calculées automatiquement afin de maximiser le contraste.
 Voici ce que ça donne avec un thème black :
 
-::AppImg{src="borne/borne_dark.png" height=1080}
+::AppImg{src="borne/borne_dark.png"}
 ::
 
 Un dernier élement important de personnalisation est le mode de paiement.
 Certains clients souhaiteront payer en caisse, d'autres avec leur solde fidélité.
 
-::AppImg{src="borne/borne_success.png" height=1080}
+::AppImg{src="borne/borne_success.png"}
 ::
 
 ## Paramétrage
@@ -66,5 +66,5 @@ Certains clients souhaiteront payer en caisse, d'autres avec leur solde fidélit
 Certains paramètres ne peuvent pas être gérés dans le back-office, notamment l'adresse des webservices.
 Il a donc fallu développer une petite fenêtre qui se lance en même temps que la borne :
 
-::AppImg{src="borne/borne_settings.png" height=1080}
+::AppImg{src="borne/borne_settings.png"}
 ::

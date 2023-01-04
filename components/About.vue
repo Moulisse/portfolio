@@ -3,7 +3,7 @@
     <h1 class="text-6xl mb-6 text-center">Denis Lachartre</h1>
     <div class="text-xl italic opacity-50 mb-10">Développeur VueJS, NodeJS</div>
     <div class="flex gap-4">
-      <Button>Contacts</Button>
+      <Button @click="scrollBottom">Contacts</Button>
       <NuxtLink href="cv">
         <Button fill="outline">CV imprimable</Button>
       </NuxtLink>
@@ -32,6 +32,13 @@
 function scrollScreen() {
   document.documentElement.scrollTo({
     top: window.innerHeight - 200,
+    behavior: "smooth",
+  });
+}
+
+function scrollBottom() {
+  document.documentElement.scrollTo({
+    top: document.body.scrollHeight,
     behavior: "smooth",
   });
 }

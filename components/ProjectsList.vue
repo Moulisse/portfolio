@@ -8,7 +8,7 @@
       </Blob>
       <NuxtLink
         :href="project._path"
-        class="col-span-2 py-6 px-4 group hover:bg-gray-50/5 hover:outline outline-2 outline-gray-50/10 rounded-xl transition"
+        class="col-span-2 py-6 px-4 group hover:bg-gray-50/5 hover:outline outline-2 outline-gray-50/10 rounded-xl transition block lg:mb-0 mb-32"
         :class="{ 'col-start-2': i % 2 === 0 }"
       >
         <h2 class="text-3xl mb-6">{{ project.title }}</h2>
@@ -20,11 +20,7 @@
             >En savoir plus
           </span>
         </div>
-        <Stack
-          :stack="project.stack"
-          v-if="project.stack"
-          class="lg:mb-0 mb-32"
-        ></Stack>
+        <Stack :stack="project.stack" v-if="project.stack"></Stack>
       </NuxtLink>
     </template>
   </div>

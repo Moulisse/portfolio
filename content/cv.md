@@ -1,3 +1,15 @@
+::Hint
+  Appuiez sur&nbsp;
+  :::Key
+    Ctrl
+  :::
+  &nbsp;\+&nbsp;
+  :::Key
+    P
+  :::
+  &nbsp;pour avoir un format PDF et pour imprimer.
+::
+
 Email : denis.lachartre@gmail.com\
 tel : 07 81 36 08 89
 
