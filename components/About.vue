@@ -1,5 +1,5 @@
 <template>
-  <div class="h-screen flex items-center justify-center flex-col relative">
+  <div class="full-screen flex items-center justify-center flex-col relative">
     <h1 class="text-6xl mb-6 text-center">Denis Lachartre</h1>
     <div class="text-xl italic opacity-50 mb-10">Développeur VueJS, NodeJS</div>
     <div class="flex gap-4">

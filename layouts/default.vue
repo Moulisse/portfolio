@@ -5,6 +5,18 @@
   </div>
 </template>
 
+<script setup lang="ts">
+function resize() {
+  let vh = window.innerHeight * 0.01;
+  document.documentElement.style.setProperty("--vh", `${vh}px`);
+}
+
+onMounted(() => {
+  window.addEventListener("resize", resize);
+  resize();
+});
+</script>
+
 <style scoped>
 .gradient {
   background: linear-gradient(
