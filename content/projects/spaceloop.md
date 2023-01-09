@@ -31,18 +31,36 @@ Il s'agissait en réalité de trois applications :
 - Les tablettes de prise de commandes; Une par table et représentent la majeure partie du travail réalisé.
 - Des écrans en cuisine pour composer les repas.
 
+
 ## Écran d'accueil
+
+Grâce à cet écran tactile, le personnel du restaurant peut avoir un aperçu de l'occupation du restaurant.
+Il peut aussi modifier le statut de chaque place en deux clics.
 
 ::AppImg{src="spaceloop/accueil.png"}
 ::
 
+Les éléments graphiques de la partie gauche sont réalisés à l'aide à un svg généré dynamiquement.
+En convertissant des coordonnées polaires en cartésiennes, on peut facilement créer plusieurs formes en arc de cercle.
 
 ## Tablette
+
+Cette app est la plus complète des trois. Elle reprend le parcours utilisateur classique avec quelques subtilités :
+- les convives utilisent un badge donné à l'entrée pour s'identifier.
+- le paiement s'effectue en caisse à la fin du repas.
 
 ::AppImg{src="spaceloop/tablette.png"}
 ::
 
+La principale difficulté vient de la taille de la tablette, 1024*786 pixels, ainsi qu'une spécification client d'éviter de devoir scroll.
+Pour pallier ce problème, la taille d'une partie des élements a été réduite.
+Ceux qui ne le pouvaient ont été divisés en plusieurs pages, par exemple lors de la sélection des éléments des menus.
+
+
 ## Écrans en cuisine
+
+Enfin, l'écran cuisine indique les plats chauds que les cuisiniers doivent réaliser et envoyer aux convives.
+Ils appuient ensuite sur le bouton correspondant pour faire baisser le compteur de 1.
 
 ::AppImg{src="spaceloop/cuisine.png"}
 ::
