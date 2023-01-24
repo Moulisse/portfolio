@@ -29,7 +29,7 @@ Un client souhaitait ouvrir un nouveau restaurant avec comme theme l'exploration
 Il s'agissait en réalité de trois applications :
 - Un écran d'accueil pour que les serveurs puissent gérer l'occupation du restaurant.
 - Les tablettes de prise de commandes; Une par table et représentent la majeure partie du travail réalisé.
-- Des écrans en cuisine pour composer les repas.
+- Des écrans en cuisine pour informer les cuisiniers des repas à composer.
 
 
 ## Écran d'accueil
@@ -40,8 +40,11 @@ Il peut aussi modifier le statut de chaque place en deux clics.
 ::AppImg{src="spaceloop/accueil.png"}
 ::
 
+Un écran situé à l'accueil du restaurant permet d'avoir un apperçu de l'état des tables.
+Elle permet d'aider les serveurs à placer les convives, à faire des reservations ainsi qu'a voir quelles tables sont bientôt libres.
 Les éléments graphiques de la partie gauche sont réalisés à l'aide à un svg généré dynamiquement.
 En convertissant des coordonnées polaires en cartésiennes, on peut facilement créer plusieurs formes en arc de cercle.
+
 
 ## Tablette
 
@@ -53,7 +56,7 @@ Cette app est la plus complète des trois. Elle reprend le parcours utilisateur 
 ::
 
 La principale difficulté vient de la taille de la tablette, 1024*786 pixels, ainsi qu'une spécification client d'éviter de devoir scroll.
-Pour pallier ce problème, la taille d'une partie des élements a été réduite.
+Pour pallier ce problème, la taille des éléments a été réduite au maximum tout en restant utilisation sur un écran tactile.
 Ceux qui ne le pouvaient ont été divisés en plusieurs pages, par exemple lors de la sélection des éléments des menus.
 
 

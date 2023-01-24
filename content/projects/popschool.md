@@ -5,4 +5,18 @@ description: Back office de gestion de présences pour des établissements scola
 icon: material-symbols:school-outline-rounded
 color: "#ec4899"
 stack: [Angular, Angular Material]
+preview: popschool.png
 ---
+
+::AppImg{src="popschool.png"}
+::
+
+---
+
+# Popschool (back office)
+
+::Stack
+---
+stack: [Angular, Angular Material]
+---
+::
