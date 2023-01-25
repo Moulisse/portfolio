@@ -36,7 +36,11 @@ des écrans en cuisine pour informer les cuisiniers des repas à composer.
 Stack : _Vue, Tailwind, HeadlessUI_
 
 
+
 - **App de prise de commandes** : (X-Gil Lab, 2020-2022)
+Tout comme le projet de borne, il s'agit d'une réecriture et d'un redesign d'une ancienne application AngularJS.
+Cette app  doit être _responsive_ afin de s'adapter aux écrans de téléphone et à ceux de PC en Full HD.
+Elle doit aussi pouvoir être publiée sur le Play Store et l'Apple Store, se qui sera rendu possible grâce à Ionic et Capacitor.
 \
 Stack : _Angular, Ionic_
 
@@ -48,15 +52,18 @@ Stack : _Angular, Angular Material_
 
 ## Formation
 
-- **2015 - 2019** : RICM à Polytech Grenoble, formation d'ingénieur en informatique.
+- **2015 - 2019** : RICM à Polytech Grenoble, formation d'ingénieur en informatique, spécialité multimédia.
 - **2013 - 2015** : École préparatoire en phyique technologique au Lycée Vaucanson.
 
-## Langues
+## Compétences
 
-- **Anglais** : Certification TOEIC obtienu (920 points sur 990).
-- **Allemand** : Connaissances niveau B2.
+- **VueJS** : Nuxt, Tailwind, HeadlessUI
+- **NodeJS** : ExpressJS, Typescript, Swagger
+- **Outils** : Git, Gitlab, Docker
+- **Anglais** : Certification TOEIC obtienu (920/990).
 
 ## Centres d'intéret
 
-- Escalade en intérieur et extérieur, ski et randonnées.
-- Piano
+- Escalade en intérieur et extérieur, ski et randonnées
+- Possède un piano mais ne sais pas en jouer
+- Les bières blanches
