@@ -1,6 +1,6 @@
 <template>
   <div class="min-h-screen gradient">
-    <NuxtLoadingIndicator />
+    <NuxtLoadingIndicator color="#ef4444" />
     <Header class="no-print"></Header>
     <slot />
   </div>

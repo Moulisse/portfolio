@@ -12,7 +12,7 @@
 
     <Popover v-if="projects">
       <template v-slot="{ open }">
-        <div class="space-x-2 link">
+        <div class="space-x-2 px-2 py-5">
           <span class="text-shadow"> Projets </span>
           <Icon
             name="carbon:chevron-down"
