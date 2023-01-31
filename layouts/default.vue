@@ -1,5 +1,6 @@
 <template>
   <div class="min-h-screen gradient">
+    <NuxtLoadingIndicator />
     <Header class="no-print"></Header>
     <slot />
   </div>
