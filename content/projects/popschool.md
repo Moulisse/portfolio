@@ -20,3 +20,5 @@ preview: popschool.png
 stack: [Angular, Angular Material]
 ---
 ::
+
+Back office de gestion de présences pour des établissements scolaires.

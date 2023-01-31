@@ -46,6 +46,7 @@ Stack : _Angular, Ionic_
 
 
 - **Popschool** : (X-Gil Lab, 2019)
+Back office de gestion de présences pour des établissements scolaires.
 \
 Stack : _Angular, Angular Material_
 
@@ -53,7 +54,7 @@ Stack : _Angular, Angular Material_
 ## Formation
 
 - **2015 - 2019** : RICM à Polytech Grenoble, formation d'ingénieur en informatique, spécialité multimédia.
-- **2013 - 2015** : École préparatoire en phyique technologique au Lycée Vaucanson.
+- **2013 - 2015** : École préparatoire en physique technologique au Lycée Vaucanson.
 
 ## Compétences
 
@@ -64,6 +65,6 @@ Stack : _Angular, Angular Material_
 
 ## Centres d'intéret
 
-- Escalade en intérieur et extérieur, ski et randonnées
-- Possède un piano mais ne sais pas en jouer
-- Les bières blanches
+- Escalade en intérieur et extérieur
+- Ski, randonnées, sports de montagne ...
+- Possède un piano (mais ne sais pas en jouer)
