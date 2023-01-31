@@ -1,8 +1,6 @@
 <template>
   <HeadlessPopover v-slot="{ open, close }">
-    <HeadlessPopoverButton
-      class="focus:outline-none space-x-2 px-2 py-5 border-b-4 border-transparent"
-    >
+    <HeadlessPopoverButton class="focus:outline-none">
       <slot :open="open"></slot>
     </HeadlessPopoverButton>
 
@@ -18,7 +16,7 @@
         class="absolute left-1/2 z-10 w-screen max-w-sm -translate-x-1/2 transform p-4 sm:px-0 lg:max-w-3xl"
       >
         <div
-          class="overflow-hidden rounded-lg shadow-lg outline outline-2 outline-gray-50/10 grid gap-4 bg-slate-900/95 p-7 lg:grid-cols-2 backdrop-blur"
+          class="overflow-hidden rounded-lg shadow-lg outline outline-2 outline-gray-50/10 grid gap-4 bg-slate-900/90 p-7 lg:grid-cols-2 backdrop-blur"
         >
           <slot name="content" :close="close"></slot>
         </div>

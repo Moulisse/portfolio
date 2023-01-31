@@ -12,12 +12,14 @@
 
     <Popover v-if="projects">
       <template v-slot="{ open }">
-        <span class="text-shadow"> Projets </span>
-        <Icon
-          name="carbon:chevron-down"
-          class="transition stroke-gray-500"
-          :class="open ? 'rotate-180' : ''"
-        ></Icon>
+        <div class="space-x-2 link">
+          <span class="text-shadow"> Projets </span>
+          <Icon
+            name="carbon:chevron-down"
+            class="transition stroke-gray-500"
+            :class="open ? 'rotate-180' : ''"
+          ></Icon>
+        </div>
       </template>
       <template v-slot:content="{ close }">
         <template v-for="item in projects">
@@ -25,7 +27,8 @@
             v-if="item"
             :key="item.title"
             :href="item._path"
-            class="flex items-center rounded-lg p-2 transition hover:bg-gray-50/5"
+            active-class="!border-primary-500"
+            class="flex items-center rounded-lg p-2 transition hover:bg-gray-50/5 border-2 border-transparent hover:border-gray-50/5"
             @click="close"
           >
             <div
