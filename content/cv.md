@@ -60,7 +60,7 @@ des volontaires dans une blockchain de type Hyperledger.
 ## Compétences
 
 - **VueJS** : Nuxt, Tailwind, HeadlessUI
-- **NodeJS** : ExpressJS, Typescript, Swagger
+- **NodeJS** : ExpressJS, Typescript, Jest
 - **Outils** : Git, Gitlab, Docker
 - **Anglais** : Certification TOEIC obtienu (920/990).
 
