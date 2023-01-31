@@ -26,7 +26,6 @@ Beaucoup d'élements sont personnalisables, comme les couleurs ainsi que les mod
 \
 Stack : _Vue, Tailwind, HeadlessUI, Electron_
 
-
 - **Tablette Spaceloop** : (X-Gil Lab, 2021-2022)
 Réalisation de plusieurs applications permettant la gestion des convives dans un restaurant au thème futuriste.
 Un écran d'accueil pour que les serveurs puissent gérer l'occupation du restaurant,
@@ -35,8 +34,6 @@ des écrans en cuisine pour informer les cuisiniers des repas à composer.
 \
 Stack : _Vue, Tailwind, HeadlessUI_
 
-
-
 - **App de prise de commandes** : (X-Gil Lab, 2020-2022)
 Tout comme le projet de borne, il s'agit d'une réecriture et d'un redesign d'une ancienne application AngularJS.
 Cette app  doit être _responsive_ afin de s'adapter aux écrans de téléphone et à ceux de PC en Full HD.
@@ -44,11 +41,15 @@ Elle doit aussi pouvoir être publiée sur le Play Store et l'Apple Store, se qu
 \
 Stack : _Angular, Ionic_
 
-
 - **Popschool** : (X-Gil Lab, 2019)
 Back office de gestion de présences pour des établissements scolaires.
 \
 Stack : _Angular, Angular Material_
+
+- **Stage de 6 mois sur la Blockchain** (Orange Labs. Meylan, 2018)
+Conception d'un système permettant de réaliser des études cliniques en enregistrant le consentement
+des volontaires dans une blockchain de type Hyperledger.
+
 
 
 ## Formation
@@ -66,5 +67,5 @@ Stack : _Angular, Angular Material_
 ## Centres d'intéret
 
 - Escalade en intérieur et extérieur
-- Ski, randonnées, sports de montagne ...
 - Possède un piano (mais ne sais pas en jouer)
+- Ski, randonnées, sports de montagne ...
