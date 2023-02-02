@@ -5,7 +5,7 @@ description: Tablette de prise de commande dans un restaurant au style futuriste
 icon: ri:space-ship-line
 color: "#06b6d4"
 preview: spaceloop/tablette.png
-stack: [Vue, Tailwind, HeadlessUI]
+stack: [Vue, Tailwind, HeadlessUI, NodeJS]
 ---
 
 ::AppImg{src="spaceloop/tablette.png"}

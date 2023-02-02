@@ -5,7 +5,7 @@ description: Projet de borne au format portrait permettant aux utilisateurs de p
 icon: ic:outline-fastfood
 color: "#22c55e"
 preview: borne.png
-stack: [Vue, Tailwind, HeadlessUI, Electron]
+stack: [Vue, Tailwind, HeadlessUI, Electron, NodeJS]
 ---
 
 ::AppImg{src="borne.png"}

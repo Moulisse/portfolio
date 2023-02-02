@@ -1,3 +1,8 @@
+---
+title: CV - Denis Lachartre
+---
+
+
 ::Hint
   Appuiez sur&nbsp;
   :::Key
@@ -24,7 +29,7 @@ Projet de borne au format portrait permettant aux utilisateurs de passer leurs c
 Son fonctionnement est basé que l'app de prise de commande.
 Beaucoup d'élements sont personnalisables, comme les couleurs ainsi que les modes de paiement.
 \
-Stack : _Vue, Tailwind, HeadlessUI, Electron_
+Stack : _Vue, Tailwind, HeadlessUI, Electron, NodeJS_
 
 - **Tablette Spaceloop** : (X-Gil Lab, 2021-2022)
 Réalisation de plusieurs applications permettant la gestion des convives dans un restaurant au thème futuriste.
@@ -32,24 +37,26 @@ Un écran d'accueil pour que les serveurs puissent gérer l'occupation du restau
 des tablettes de prise de commandes et
 des écrans en cuisine pour informer les cuisiniers des repas à composer.
 \
-Stack : _Vue, Tailwind, HeadlessUI_
+Stack : _Vue, Tailwind, HeadlessUI, NodeJS_
 
 - **App de prise de commandes** : (X-Gil Lab, 2020-2022)
-Tout comme le projet de borne, il s'agit d'une réecriture et d'un redesign d'une ancienne application AngularJS.
-Cette app  doit être _responsive_ afin de s'adapter aux écrans de téléphone et à ceux de PC en Full HD.
-Elle doit aussi pouvoir être publiée sur le Play Store et l'Apple Store, se qui sera rendu possible grâce à Ionic et Capacitor.
+Comme le projet de borne, il s'agit d'une réecriture et d'un redesign d'une ancienne application mobile en AngularJS.
+Elle doit pouvoir être publiée sur le Play Store et l'Apple Store, se qui sera rendu possible grâce à Ionic et Capacitor.
+Développement de nombreux webservices en NodeJS qui seront réutilisés dans les futurs projets.
 \
-Stack : _Angular, Ionic_
+Stack : _Angular, Ionic, NodeJS_
 
 - **Popschool** : (X-Gil Lab, 2019)
 Back office de gestion de présences pour des établissements scolaires.
+Réalisation de composants complexes d'affichage et de modification de données.
 \
 Stack : _Angular, Angular Material_
 
 - **Stage de 6 mois sur la Blockchain** (Orange Labs. Meylan, 2018)
 Conception d'un système permettant de réaliser des études cliniques en enregistrant le consentement
 des volontaires dans une blockchain de type Hyperledger.
-
+\
+Stack : _Angular, Angular Material, NodeJS, Hyperledger_
 
 
 ## Formation

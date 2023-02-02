@@ -23,6 +23,7 @@ const icons: { [key: string]: string } = {
   "Angular Material": "tabler:brand-angular",
   Ionic: "ion:logo-ionic",
   Electron: "ion:logo-electron",
+  NodeJS: "ion:logo-nodejs",
 };
 </script>
 
@@ -54,5 +55,9 @@ const icons: { [key: string]: string } = {
 .Electron {
   background-color: #292c37;
   color: #9ae4f2;
+}
+.NodeJS {
+  background-color: #303030;
+  color: #7cc327;
 }
 </style>

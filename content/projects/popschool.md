@@ -1,7 +1,7 @@
 ---
 id: 4
 title: Popschool
-description: Back office de gestion de présences pour des établissements scolaires.
+description: Back office de gestion de présences pour des établissements scolaires. 
 icon: material-symbols:school-outline-rounded
 color: "#ec4899"
 stack: [Angular, Angular Material]
@@ -21,4 +21,4 @@ stack: [Angular, Angular Material]
 ---
 ::
 
-Back office de gestion de présences pour des établissements scolaires.
+Back office de gestion de présences pour des établissements scolaires. Réalisation de composants complexes d'affichage et de modification de données.

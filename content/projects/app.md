@@ -5,7 +5,7 @@ description: Webapp mobile et desktop avec gestion de comptes client.
 icon: bi:phone
 color: "#fb923c"
 preview: app.png
-stack: [Angular, Ionic]
+stack: [Angular, Ionic, NodeJS]
 ---
 
 ::AppImg{src="app.png"}
