@@ -1,6 +1,6 @@
 ---
 id: 0
-title: Portfolio
+title: Portfolio - Denis Lachartre
 description: Le site sur lequel vous êtes actuellement.
 icon: mdi:user-circle-outline
 color: "#ef4444"

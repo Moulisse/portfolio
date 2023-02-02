@@ -1,6 +1,6 @@
 ---
 id: 3
-title: Webapp de prise de commandes
+title: Webapp de prise de commandes - Denis Lachartre
 description: Webapp mobile et desktop avec gestion de comptes client.
 icon: bi:phone
 color: "#fb923c"
