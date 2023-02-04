@@ -17,7 +17,7 @@ stack: [Angular, Ionic, NodeJS]
 
 ::Stack
 ---
-stack: [Angular, Ionic]
+stack: [Angular, Ionic, NodeJS]
 ---
 ::
 
@@ -35,6 +35,7 @@ https://test.xrestoffice.com/mpc-app-v2/37/order/articles?pdvId=SHOWS
 Tout comme le projet de borne, il s'agit d'une réécriture et d'un redesign d'une ancienne application AngularJS.
 Cette app  doit être _responsive_ afin de s'adapter aux écrans de téléphone et à ceux de PC en Full HD.
 Elle doit aussi pouvoir être publiée sur le Play Store et l'Apple Store (ce qui sera rendu possible grâce à Ionic et Capacitor).
+Il faudra aussi réaliser de nombreux webservices en NodeJS qui seront réutilisés dans les futurs projets (borne et Spaceloop notamment).
 
 
 ## Compte client

@@ -17,7 +17,7 @@ stack: [Vue, Tailwind, HeadlessUI, NodeJS]
 
 ::Stack
 ---
-stack: [Vue, Tailwind, HeadlessUI]
+stack: [Vue, Tailwind, HeadlessUI, NodeJS]
 ---
 ::
 
