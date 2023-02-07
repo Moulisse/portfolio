@@ -11,8 +11,11 @@
     "@nuxt/image-edge": "^1.0.0-27840416.dc1ed65",
     "@nuxtjs/tailwindcss": "^6.2.0",
     "@tailwindcss/typography": "^0.5.8",
+    "@vueuse/motion": "2.0.0-beta.23",
     "nuxt": "^3.0.0",
+    "nuxt-animejs": "^1.2.4",
     "nuxt-headlessui": "^1.0.4",
     "nuxt-icon": "^0.1.8"
-  }
+  },
+  "dependencies": {}
 }
