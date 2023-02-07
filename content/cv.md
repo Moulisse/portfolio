@@ -61,7 +61,7 @@ Stack : _Angular, Angular Material, NodeJS, Hyperledger_
 
 ## Formation
 
-- **2015 - 2019** : RICM à Polytech Grenoble, formation d'ingénieur en informatique, spécialité multimédia.
+- **2015 - 2018** : RICM à Polytech Grenoble, formation d'ingénieur en informatique, spécialité multimédia.
 - **2013 - 2015** : École préparatoire en physique technologique au Lycée Vaucanson.
 
 ## Compétences
