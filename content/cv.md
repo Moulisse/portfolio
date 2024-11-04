@@ -29,8 +29,8 @@ _Développeur VueJS, NodeJS_
 
   - **Borne de prise de commandes**
 Projet de borne au format portrait permettant aux utilisateurs de passer leurs commandes de façon autonome.
-Son fonctionnement est basé que l'app de prise de commande.
-Beaucoup d'élements sont personnalisables, comme les couleurs ainsi que les modes de paiement.
+Son fonctionnement est identique à l'app de prise de commande.
+Beaucoup d'élements sont personnalisables, comme les couleurs ainsi que les moyens de paiement.
 \
 Stack : _Vue, Tailwind, HeadlessUI, Electron, NodeJS_
 
@@ -49,18 +49,6 @@ Développement de nombreux webservices en NodeJS qui seront réutilisés dans le
 \
 Stack : _Angular, Ionic, NodeJS_
 
-  - **Popschool**
-Back office de gestion de présences pour des établissements scolaires.
-Réalisation de composants complexes d'affichage et de modification de données.
-\
-Stack : _Angular, Angular Material_
-
-- **Stage de 6 mois sur la Blockchain** à Orange Labs. Meylan (2018)\
-Conception d'un système permettant de réaliser des études cliniques en enregistrant le consentement
-des volontaires dans une blockchain de type Hyperledger.
-\
-Stack : _Angular, Angular Material, NodeJS, Hyperledger_
-
 
 ## Formation
 
@@ -69,13 +57,13 @@ Stack : _Angular, Angular Material, NodeJS, Hyperledger_
 
 ## Compétences
 
-- **VueJS** : Nuxt, Tailwind, HeadlessUI
+- **VueJS** : Nuxt, Tailwind, Storybook
 - **NodeJS** : ExpressJS, Typescript, Jest
 - **Outils** : Git, Gitlab, Docker
 - **Anglais** : Certification TOEIC obtienu (920/990).
 
 ## Centres d'intéret
 
-- Escalade en intérieur et extérieur
-- Possède un piano (mais ne sais pas en jouer)
-- Ski, randonnées, sports de montagne ...
+- Escalade
+- Ski, randonnées, sports de montagne
+- Les quiches

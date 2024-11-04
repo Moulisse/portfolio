@@ -3,7 +3,7 @@ id: 2
 title: Tablette Spaceloop
 description: Tablette de prise de commande dans un restaurant au style futuriste.
 icon: ri:space-ship-line
-color: "#06b6d4"
+color: "#791ea3"
 preview: spaceloop/tablette.png
 stack: [Vue, Tailwind, HeadlessUI, NodeJS]
 ---

@@ -11,6 +11,7 @@ const icons: { [key: string]: string } = {
   'Ionic': 'ion:logo-ionic',
   'Electron': 'ion:logo-electron',
   'NodeJS': 'ion:logo-nodejs',
+  'ThreeJS': 'tabler:brand-threejs',
 }
 </script>
 
@@ -19,7 +20,7 @@ const icons: { [key: string]: string } = {
     <div
       v-for="lang in stack"
       :key="lang"
-      class="inline-block rounded-full px-4 pb-1 pt-0.5 shrink-0 flex items-center gap-2"
+      class="inline-block rounded-full px-4 pb-1 pt-0.5 shrink-0 flex items-center gap-2 select-none"
       :class="lang"
     >
       <Icon
@@ -64,5 +65,9 @@ const icons: { [key: string]: string } = {
 .NodeJS {
   background-color: #303030;
   color: #7cc327;
+}
+.ThreeJS {
+  background: linear-gradient(to right, #222222, black);
+  color: rgb(187, 187, 187);
 }
 </style>

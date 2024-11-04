@@ -37,17 +37,21 @@ const { data: projects } = await useAsyncData('projects', () =>
           >
             <div
               v-if="item.icon"
-              class="h-12 w-12 flex shrink-0 items-center justify-center relative ml-4 mr-6"
+              class="shrink-0 ml-4 mr-6"
             >
               <div
-                class="absolute inset-0 opacity-80 rounded-lg"
-                :style="{ background: item.color ?? '#fff' }"
-              />
-              <Icon
-                v-if="item.icon"
-                :name="item.icon"
-                class="stroke-current stroke-0 w-8 h-8 z-10"
-              />
+                class="rounded-lg size-12 flex items-center justify-center"
+                :style="{
+                  background: item.color ?? '#fff',
+                  color: item.text ?? '#fff',
+                }"
+              >
+                <Icon
+                  v-if="item.icon"
+                  :name="item.icon"
+                  class="stroke-current stroke-0 w-8 h-8 z-10"
+                />
+              </div>
             </div>
             <div>
               <p class="mb-2 text-base">

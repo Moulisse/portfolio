@@ -3,7 +3,7 @@ id: 1
 title: Borne de prise de commandes
 description: Projet de borne au format portrait permettant aux utilisateurs de passer leurs commandes de façon autonome.
 icon: ic:outline-fastfood
-color: "#22c55e"
+color: "#22c0c5"
 preview: borne.png
 stack: [Vue, Tailwind, HeadlessUI, Electron, NodeJS]
 ---
