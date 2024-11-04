@@ -6,8 +6,8 @@ export default defineNuxtConfig({
     "@nuxtjs/tailwindcss",
     "@nuxt/content",
     "nuxt-headlessui",
-    "nuxt-icon",
-    "@nuxt/image-edge",
+    "@nuxt/image",
+    "@nuxt/icon",
   ],
   app: {
     head: {
