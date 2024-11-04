@@ -1,4 +1,6 @@
 <script setup lang="ts">
+import { NuxtLink } from '#components'
+
 function scrollScreen() {
   document.documentElement.scrollTo({
     top: window.innerHeight - 200,
@@ -26,11 +28,13 @@ function scrollBottom() {
       <Button @click="scrollBottom">
         Contacts
       </Button>
-      <NuxtLink href="cv">
-        <Button fill="outline">
-          CV imprimable
-        </Button>
-      </NuxtLink>
+      <Button
+        fill="outline"
+        :as="NuxtLink"
+        href="cv"
+      >
+        CV imprimable
+      </Button>
     </div>
     <button
       class="absolute bottom-8 flex flex-col items-center gap-4"
