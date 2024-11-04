@@ -5,9 +5,12 @@
     <Icon
       class="text-2xl text-amber-400 shrink-0"
       name="carbon-information"
-    ></Icon>
+    />
     <span>
-      <ContentSlot :use="$slots.default" unwrap="p" />
+      <ContentSlot
+        :use="$slots.default"
+        unwrap="p"
+      />
     </span>
   </div>
 </template>

@@ -8,7 +8,9 @@ export default defineNuxtConfig({
     "nuxt-headlessui",
     "@nuxt/image",
     "@nuxt/icon",
+    "@nuxt/eslint",
   ],
+
   app: {
     head: {
       title: "Denis Lachartre",
@@ -16,16 +18,26 @@ export default defineNuxtConfig({
       link: [{ rel: "icon", type: "image/x-icon", href: "/favicon.png" }],
     },
   },
+
   content: {
     highlight: {
       preload: ["javascript"],
       theme: "dark-plus",
     },
   },
+
   tailwindcss: {
     config: {
       content: [],
       plugins: [tailwindTypography],
     },
   },
+
+  eslint: {
+    config: {
+      stylistic: true
+    }
+  },
+
+  compatibilityDate: "2024-11-04",
 });

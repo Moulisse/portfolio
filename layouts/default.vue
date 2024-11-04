@@ -1,22 +1,22 @@
-<template>
-  <div class="min-h-screen gradient">
-    <NuxtLoadingIndicator color="#ef4444" />
-    <Header class="no-print"></Header>
-    <slot />
-  </div>
-</template>
-
 <script setup lang="ts">
 function resize() {
-  let vh = window.innerHeight * 0.01;
-  document.documentElement.style.setProperty("--vh", `${vh}px`);
+  const vh = window.innerHeight * 0.01
+  document.documentElement.style.setProperty('--vh', `${vh}px`)
 }
 
 onMounted(() => {
-  window.addEventListener("resize", resize);
-  resize();
-});
+  window.addEventListener('resize', resize)
+  resize()
+})
 </script>
+
+<template>
+  <div class="min-h-screen gradient">
+    <NuxtLoadingIndicator color="#ef4444" />
+    <Header class="no-print" />
+    <slot />
+  </div>
+</template>
 
 <style scoped>
 .gradient {

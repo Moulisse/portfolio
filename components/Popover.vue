@@ -1,7 +1,7 @@
 <template>
   <HeadlessPopover v-slot="{ open, close }">
     <HeadlessPopoverButton class="focus:outline-none">
-      <slot :open="open"></slot>
+      <slot :open="open" />
     </HeadlessPopoverButton>
 
     <transition
@@ -18,7 +18,10 @@
         <div
           class="overflow-hidden rounded-lg shadow-lg outline outline-2 outline-gray-50/10 grid gap-4 bg-slate-900/90 p-7 lg:grid-cols-2 backdrop-blur"
         >
-          <slot name="content" :close="close"></slot>
+          <slot
+            name="content"
+            :close="close"
+          />
         </div>
       </HeadlessPopoverPanel>
     </transition>

@@ -1,31 +1,36 @@
+<script setup lang="ts">
+defineProps<{ stack: string[] }>()
+
+const icons: { [key: string]: string } = {
+  'Nuxt': 'tabler:brand-nuxt',
+  'Vue': 'tabler:brand-vue',
+  'Tailwind': 'tabler:brand-tailwind',
+  'HeadlessUI': 'tabler:brand-headlessui',
+  'Angular': 'tabler:brand-angular',
+  'Angular Material': 'tabler:brand-angular',
+  'Ionic': 'ion:logo-ionic',
+  'Electron': 'ion:logo-electron',
+  'NodeJS': 'ion:logo-nodejs',
+}
+</script>
+
 <template>
   <div class="flex items-baseline gap-4 flex-wrap">
     <div
       v-for="lang in stack"
+      :key="lang"
       class="inline-block rounded-full px-4 pb-1 pt-0.5 shrink-0 flex items-center gap-2"
       :class="lang"
     >
-      <Icon v-if="icons[lang]" :name="icons[lang]" class="text-xl"></Icon>
+      <Icon
+        v-if="icons[lang]"
+        :name="icons[lang]"
+        class="text-xl"
+      />
       {{ lang }}
     </div>
   </div>
 </template>
-
-<script setup lang="ts">
-defineProps<{ stack: string[] }>();
-
-const icons: { [key: string]: string } = {
-  Nuxt: "tabler:brand-nuxt",
-  Vue: "tabler:brand-vue",
-  Tailwind: "tabler:brand-tailwind",
-  HeadlessUI: "tabler:brand-headlessui",
-  Angular: "tabler:brand-angular",
-  "Angular Material": "tabler:brand-angular",
-  Ionic: "ion:logo-ionic",
-  Electron: "ion:logo-electron",
-  NodeJS: "ion:logo-nodejs",
-};
-</script>
 
 <style scoped>
 .Nuxt {
