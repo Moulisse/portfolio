@@ -31,8 +31,8 @@ const { data: projects } = await useAsyncData('projects', () =>
             v-if="item"
             :key="item.title"
             :href="item._path"
-            active-class="!border-primary-500"
-            class="flex items-center rounded-lg p-2 transition hover:bg-gray-50/5 border-2 border-transparent hover:border-gray-50/5"
+            active-class="border-slate-50/5 bg-slate-50/5"
+            class="flex items-center rounded-lg p-2 transition hover:bg-slate-50/5 border-2 border-transparent hover:border-slate-50/5"
             @click="close"
           >
             <div

@@ -16,7 +16,7 @@
         class="absolute left-1/2 z-10 w-screen max-w-sm -translate-x-1/2 transform p-4 sm:px-0 lg:max-w-3xl"
       >
         <div
-          class="overflow-hidden rounded-lg shadow-lg outline outline-2 outline-gray-50/10 grid gap-4 bg-slate-900/90 p-7 lg:grid-cols-2 backdrop-blur"
+          class="overflow-hidden rounded-3xl shadow-xl outline outline-2 outline-slate-700/50 grid gap-4 bg-slate-900 p-7 lg:grid-cols-2 backdrop-blur"
         >
           <slot
             name="content"

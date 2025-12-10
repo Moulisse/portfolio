@@ -21,33 +21,40 @@ portfolio : https://portfolio-denis-lachartre.vercel.app
 
 # Denis Lachartre
 
-_Développeur VueJS, NodeJS_
+_Développeur VueJS_
 
 ## Expériences
 
-- **Développeur Full Stack** à X-Gil Lab, Meylan (2018-Aujourd'hui)
+- **Développeur VueJS** à Visioglobe, Meylan (2023-Aujourd'hui)
+\
+Réalisation de plusieurs applications web de visualisation 3D de bâtiments.
+Travail en collaboration avec Figma pour le design.
+
+  - **Visioweb**
+Navigation dans un plan 3D de centre commercial à la Défense.
+Tous les éléments sont responsives pour une navigation facile même sur téléphone.
+
+  - **Back office Visioglobe**
+Gestion de projets 3D pour des bâtiments, jardins, aéroports, etc.
+A nécessité le développement d'une bibliothèque de composants réutilisables et publiée via npm.
+
+- **Développeur Full Stack** à X-Gil Lab, Meylan (2018-2023)
 
   - **Borne de prise de commandes**
 Projet de borne au format portrait permettant aux utilisateurs de passer leurs commandes de façon autonome.
 Son fonctionnement est identique à l'app de prise de commande.
 Beaucoup d'élements sont personnalisables, comme les couleurs ainsi que les moyens de paiement.
-\
-Stack : _Vue, Tailwind, HeadlessUI, Electron, NodeJS_
 
   - **Tablette Spaceloop**
 Réalisation de plusieurs applications permettant la gestion des convives dans un restaurant au thème futuriste.
 Un écran d'accueil pour que les serveurs puissent gérer l'occupation du restaurant,
 des tablettes de prise de commandes et
 des écrans en cuisine pour informer les cuisiniers des repas à composer.
-\
-Stack : _Vue, Tailwind, HeadlessUI, NodeJS_
 
   - **App de prise de commandes**
 Comme le projet de borne, il s'agit d'une réecriture et d'un redesign d'une ancienne application mobile en AngularJS.
 Elle doit pouvoir être publiée sur le Play Store et l'Apple Store, se qui sera rendu possible grâce à Ionic et Capacitor.
 Développement de nombreux webservices en NodeJS qui seront réutilisés dans les futurs projets.
-\
-Stack : _Angular, Ionic, NodeJS_
 
 
 ## Formation
@@ -57,13 +64,12 @@ Stack : _Angular, Ionic, NodeJS_
 
 ## Compétences
 
-- **VueJS** : Nuxt, Tailwind, Storybook
-- **NodeJS** : ExpressJS, Typescript, Jest
-- **Outils** : Git, Gitlab, Docker
+- **VueJS** : Nuxt, Tailwind, Storybook, HeadlessUI, Jest, Ionic
+- **NodeJS** : ExpressJS, Typescript, Jest, PHP, Symfony
+- **PHP** : Symfony
+- **Outils** : Figma, Git, Gitlab, Docker
 - **Anglais** : Certification TOEIC obtienu (920/990).
 
 ## Centres d'intéret
 
-- Escalade
-- Ski, randonnées, sports de montagne
-- Les quiches
+- Escalade, ski, randonnées, escalade, sports de montagne, escalade
