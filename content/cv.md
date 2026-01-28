@@ -17,7 +17,7 @@ title: CV - Denis Lachartre
 
 Email : denis.lachartre@gmail.com\
 tel : 07 81 36 08 89\
-portfolio : https://portfolio-denis-lachartre.vercel.app
+portfolio : https://denis-lachartre.vercel.app
 
 # Denis Lachartre
 
