@@ -21,11 +21,11 @@ portfolio : https://denis-lachartre.vercel.app
 
 # Denis Lachartre
 
-_Développeur VueJS_
+_Développeur NodeJS, VueJS_
 
 ## Expériences
 
-- **Développeur VueJS** à Visioglobe, Meylan (2023-Aujourd'hui)
+- **Développeur Frontend** à Visioglobe, Meylan (2023-Aujourd'hui)
 \
 Réalisation de plusieurs applications web de visualisation 3D de bâtiments.
 Travail en collaboration avec Figma pour le design.
@@ -68,8 +68,8 @@ Développement de nombreux webservices en NodeJS qui seront réutilisés dans le
 - **NodeJS** : ExpressJS, Typescript, Jest
 - **PHP** : Symfony
 - **Outils** : Figma, Git, Gitlab, Docker
-- **Anglais** : Certification TOEIC obtienu (920/990).
+- **Anglais** : Certification TOEIC (920/990).
 
 ## Centres d'intéret
 
-- Escalade, ski, randonnées, escalade, sports de montagne, escalade
+- Escalade, ski, brunch
