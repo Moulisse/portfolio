@@ -66,9 +66,9 @@ Développement de nombreux webservices en NodeJS qui seront réutilisés dans le
 
 - **VueJS** : Nuxt, Tailwind, Storybook, Vitest, Ionic, Electron
 - **NodeJS** : ExpressJS, Typescript, Jest
-- **PHP** : Symfony
 - **Outils** : Figma, Git, Gitlab, Docker
 - **Anglais** : Certification TOEIC (920/990).
+- **Veille technologique, Qualité du code et transmission de connaissances**
 
 ## Centres d'intéret
 
