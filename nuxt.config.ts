@@ -9,6 +9,7 @@ export default defineNuxtConfig({
     '@nuxt/image',
     '@nuxt/icon',
     '@nuxt/eslint',
+    '@nuxtjs/i18n',
   ],
 
   app: {
@@ -33,6 +34,13 @@ export default defineNuxtConfig({
     config: {
       stylistic: true,
     },
+  },
+
+  i18n: {
+    defaultLocale: 'en',
+    locales: [
+      { code: 'en', name: 'English', file: 'en.json' },
+    ],
   },
 
   tailwindcss: {
