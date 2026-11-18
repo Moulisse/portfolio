@@ -22,7 +22,7 @@ function scrollBottom() {
       Denis Lachartre
     </h1>
     <div class="text-xl italic opacity-50 mb-10">
-      Développeur Full stack
+      Développeur Full Stack
     </div>
     <div class="flex gap-4">
       <Button @click="scrollBottom">
