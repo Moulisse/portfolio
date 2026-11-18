@@ -21,7 +21,7 @@ portfolio : https://denis-lachartre.vercel.app
 
 # Denis Lachartre
 
-_Développeur Web Fullstack_
+_Développeur Fullstack_
 
 ## Experience
 
