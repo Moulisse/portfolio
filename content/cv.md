@@ -21,9 +21,9 @@ portfolio : https://denis-lachartre.vercel.app
 
 # Denis Lachartre
 
-_Développeur NodeJS, VueJS_
+_Développeur Web Fullstack_
 
-## Expériences
+## Experience
 
 - **Développeur Frontend** à Visioglobe, Meylan (2023-Aujourd'hui)
 \

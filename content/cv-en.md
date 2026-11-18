@@ -21,7 +21,7 @@ portfolio : https://denis-lachartre.vercel.app
 
 # Denis Lachartre
 
-_NodeJS and VueJS Developer_
+Full Stack Developer_
 
 ## Experience
 
